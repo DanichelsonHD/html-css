@@ -10,12 +10,14 @@
     --fonte3: 'Sriracha', cursive;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: white;
     font-family: var(--fonte3);
-    
-    margin: 0px;
-    padding: 0px;
 }
 
 header {
@@ -24,42 +26,66 @@ header {
     font-family: var(--fonte2);
     text-align: center;
 
-    height: 168px;
+    height: 164px;
     padding: 20px;
 }
 header > h1 {
-    font-size: 60px;
+    font-size: 4.8em;
+    font-variant: small-caps;
+    text-transform: uppercase capitalize;
 
     margin: 20px;
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 0px;
 }
-header h1 > spam {
-    font-size: 140%;
-}
-header > p{
-    margin: 0px;
+header > p {
     font-family: var(--fonte1);
 }
 
 main {
-    font-stretch: 190%;
-    font-size: 175%;
-
-    margin: 0px;
+    margin-bottom: 20px;
 }
 main section {
-    padding: 40px;
+    margin: 10vh 0vh;
+    padding-left: 30px;
+}
+section.fundo {
+    background-position: center;
+}
+section#flor {
+    background-color: lightblue;
+    background-image: url('imagens/background001.jpg');
+}
+section#livro {
+    background-color: antiquewhite;
+    background-image: url('imagens/background002.jpg');
+}
+main p {
+    font-size: 1.678em;
+    line-height: 2em;
+
+    padding-bottom: 2em;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
     background-color: black;
     color: white;
     font-family: var(--fonte1);
+    font-size: 1em;
+    text-align: center;
+
+    padding: 5px;
+}
+footer p {
+    padding: 5px;
 }
