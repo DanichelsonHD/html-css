@@ -13,9 +13,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 body {
+    min-height: 100vh;
     background-color: white;
     font-family: var(--fonte3);
 }
@@ -25,47 +27,51 @@ header {
     color: white;
     font-family: var(--fonte2);
     text-align: center;
-
-    height: 164px;
-    padding: 20px;
 }
 header > h1 {
-    font-size: 4.8em;
+    font-size: 10vw;
     font-variant: small-caps;
     text-transform: uppercase capitalize;
 
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 10px;
-    padding-bottom: 0px;
+    padding-top: 50px;
 }
 header > p {
     font-family: var(--fonte1);
+    padding-bottom: 50px;
 }
 
 main {
     margin-bottom: 20px;
 }
 main section {
-    margin: 10vh 0vh;
-    padding-left: 30px;
-}
-section.fundo {
-    background-position: center;
-}
-section#flor {
-    background-color: lightblue;
-    background-image: url('imagens/background001.jpg');
-}
-section#livro {
-    background-color: antiquewhite;
-    background-image: url('imagens/background002.jpg');
+    padding: 10vh 30px;
 }
 main p {
-    font-size: 1.678em;
+    font-size: 3.5vw;
     line-height: 2em;
 
-    padding-bottom: 2em;
+    margin: 3em 0px;
+    padding: 5px;
+}
+section.fundo {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.fundo > p {
+    display: inline-block;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+section#flor {
+    background-color: lightgreen;
+    background-image: url('../imagens/background001.jpg');
+}
+section#livro {
+    background-color: beige;
+    background-image: url('../imagens/background002.jpg');
 }
 
 a {
