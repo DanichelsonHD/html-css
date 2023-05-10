@@ -40,9 +40,6 @@ header > p {
     padding-bottom: 50px;
 }
 
-main {
-    margin-bottom: 20px;
-}
 main section {
     padding: 10vh 30px;
 }
@@ -50,7 +47,7 @@ main p {
     font-size: 3.5vw;
     line-height: 2em;
 
-    margin: 3em 0px;
+    margin-bottom: 2em;
     padding: 5px;
 }
 section.fundo {
@@ -89,9 +86,7 @@ footer {
     font-family: var(--fonte1);
     font-size: 1em;
     text-align: center;
-
-    padding: 5px;
 }
 footer p {
-    padding: 5px;
+    padding: 10px;
 }
