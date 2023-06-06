@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrames</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quasi ab assumenda. Nostrum, maxime laborum. Ab sequi, consequuntur voluptate necessitatibus, aperiam nostrum illum similique quod debitis voluptatibus, iste ipsa numquam!</p>
+    <!-- 
+        Ao usar iFrames podemos ter problemas com segurança
+        Se utilizado o parâmetro 'sandbox', você pode limitar
+        o acesso que seu iframe coleta do seu site.
+        Quando usado dentro do parâmetro 'sandbox' a tag
+        "sandbox", você tira todas às permições do site
+        acessado. Caso queira liberar utilize a tag
+        "allow-(alguma tag)", dentre elas destaco
+        "allow-forms", "allow-scripts" e "allow-same-origin".
+    -->
+    <iframe src="pags/pag004.html" sandbox="allow-scripts allow-forms" referrerpolicy="no-referrer-when-downgrade">
+        Seu navegador não é compatível com isso.
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex similique deserunt repellendus, animi tempore? Incidunt libero unde eius molestias eveniet facilis ratione. Eius, autem iste! Dignissimos delectus consequatur itaque?</p>
+</body>
+</html>
